@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body fills the viewport */
+    overflow: hidden; /* Disable scrolling */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('imgs/room.avif') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.bed {
+    width: 900px;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.bed:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.door {
+    width: auto;
+    height: 1250px;
+    position: absolute;
+    top: 17%;
+    left: 97.5%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.door:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.window{
+    width: auto;
+    height: 525px;
+    position: absolute;
+    top: 5.5%;
+    left: 24.2%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.window:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
