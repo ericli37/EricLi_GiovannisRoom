@@ -19,6 +19,18 @@ body {
     text-align: center;
 }
 
+.container {
+    position: absolute;
+    top: 25%;  /* Adjusts vertical position */
+    left: 50%; /* Adjusts horizontal position */
+    transform: translate(-50%, -50%); /* Centers the box */
+    width: 300px;  /* Adjust width */
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
 .bed {
     width: 900px;
     height: auto;
@@ -59,4 +71,20 @@ body {
 
 .window:hover {
     transform: translate(-50%, -50%) scale(1.1);
+}
+
+@media (max-width: 1024px) {
+    .bed { 
+        width: 47vw; 
+        top: 54.5%;
+    }
+    .door { 
+        height: 105vh; 
+        top: 24%;
+    }
+    .window { 
+        height: 42.3vh;
+        left: 24.3%;
+        top: 15.6%;
+    }
 }
