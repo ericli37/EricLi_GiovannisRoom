@@ -88,3 +88,19 @@ body {
         top: 15.6%;
     }
 }
+
+@media (max-width: 1366px) {
+    .bed { 
+        width: 47vw; 
+        top: 56%;
+    }
+    .door { 
+        height: 135vh; 
+        top: 14%;
+    }
+    .window { 
+        height: 63vh;
+        left: 24.3%;
+        top: -0.5%;
+    }
+}
