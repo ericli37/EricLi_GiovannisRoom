@@ -19,15 +19,16 @@ body {
     text-align: center;
 }
 
-.container {
+.text1 {
     position: absolute;
-    top: 25%;  /* Adjusts vertical position */
-    left: 50%; /* Adjusts horizontal position */
-    transform: translate(-50%, -50%); /* Centers the box */
-    width: 300px;  /* Adjust width */
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 300px;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
-    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    visibility: hidden;
 }
 
 
@@ -41,8 +42,26 @@ body {
     transition: transform 0.3s ease;
 }
 
+.parent1:hover .text1 {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
 .bed:hover {
     transform: translate(-50%, -50%) scale(1.1);
+}
+
+.text2 {
+    position: absolute;
+    top: 42%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    visibility: hidden;
 }
 
 .door {
@@ -53,6 +72,12 @@ body {
     left: 97.5%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
+}
+
+.parent2:hover .text2 {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 
 .door:hover {
