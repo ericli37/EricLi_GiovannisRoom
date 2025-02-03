@@ -59,7 +59,7 @@ body {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-.window{
+.window {
     width: auto;
     height: 525px;
     position: absolute;
@@ -73,20 +73,46 @@ body {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-@media (max-width: 1024px) {
-    .bed { 
-        width: 47vw; 
-        top: 54.5%;
-    }
-    .door { 
-        height: 105vh; 
-        top: 24%;
-    }
-    .window { 
-        height: 42.3vh;
-        left: 24.3%;
-        top: 15.6%;
-    }
+.alcohol {
+    width: auto;
+    height: 120px;
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.alcohol:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.clutter {
+    width: auto;
+    height: 260px;
+    position: absolute;
+    top: 84.45%;
+    left: 33.4%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.clutter:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.mirror {
+    width: auto;
+    height: 175px;
+    position: absolute;
+    top: 38%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+}
+
+.mirror:hover {
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
 @media (max-width: 1366px) {
@@ -95,12 +121,26 @@ body {
         top: 56%;
     }
     .door { 
-        height: 135vh; 
-        top: 14%;
+        height: 136vh; 
+        top: 13.3%;
+        left: 97.6%
     }
     .window { 
         height: 63vh;
         left: 24.3%;
         top: -0.5%;
+    }
+    .alcohol { 
+        height: 15vh;
+        left: 5%;
+        top: 14.5%;
+    }
+    .clutter { 
+        height: 31vh;
+        left: 33.2%;
+        top: 89.3%;
+    }
+    .mirror { 
+        height: 18vh;
     }
 }
