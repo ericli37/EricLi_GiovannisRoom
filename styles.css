@@ -103,9 +103,9 @@ body {
 
 .mirror {
     width: auto;
-    height: 175px;
+    height: 150px;
     position: absolute;
-    top: 38%;
+    top: 39%;
     left: 88%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
@@ -142,5 +142,6 @@ body {
     }
     .mirror { 
         height: 18vh;
+        top: 37.5%;
     }
 }
