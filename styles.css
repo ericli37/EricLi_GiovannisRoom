@@ -219,9 +219,18 @@ body {
 }
 
 @media (max-width: 1366px) {
+    .text1 {
+        width: 270px;
+        left: 20.7%;
+        top: 50%;
+    }
     .bed { 
         width: 47vw; 
         top: 56%;
+    }
+    .text2 {
+        width: 270px;
+        left: 80%;
     }
     .door { 
         height: 136vh; 
