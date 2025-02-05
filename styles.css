@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensure the body fills the viewport */
-    overflow: hidden; /* Disable scrolling */
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
