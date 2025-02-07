@@ -121,7 +121,7 @@ body {
 
 .text4 {
     position: absolute;
-    top: 22%;
+    top: 27%;
     left: 17%;
     transform: translate(-50%, -50%);
     width: 300px;
@@ -254,7 +254,7 @@ body {
     .text4 {
         width: 270px;
         left: 21%;
-        top: 34%;
+        top: 40%;
         font-size: smaller;
     }
     .alcohol { 
